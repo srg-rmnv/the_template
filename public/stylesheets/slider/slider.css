@@ -1,0 +1,61 @@
+.slider {
+  width: 800px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border: 1px solid lightgray;
+}
+.slider a {
+  display: block;
+  width: 20px;
+  height: 40px;
+  text-decoration: none;
+  background-color: lightgray;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  z-index: 2;
+  top: 260px;
+  padding: 5px;
+}
+.slider a.bck {
+  left: 0px;
+}
+.slider a.fwd {
+  right: 0px;
+  text-align: right;
+}
+.slider ul {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  list-style: none;
+  width: 4000px;
+  height: 300px;
+}
+.slider ul li {
+  display: block;
+  float: left;
+  width: 800px;
+  height: 300px;
+  background: #fff;
+}
+.slider h2 {
+  text-indent: 10px;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-bottom: 50px;
+}
+.slider p {
+  text-indent: 10px;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

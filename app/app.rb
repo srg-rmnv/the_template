@@ -44,7 +44,8 @@ class MarkupTemplate < Padrino::Application
 
   # Pages
   get '/' do
-    haml :index
+    #haml :index
+    haml :slider
   end
 
   get '/test_page' do
