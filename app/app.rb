@@ -48,6 +48,10 @@ class MarkupTemplate < Padrino::Application
     haml :slider
   end
 
+  get '/hx' do
+    haml :hx
+  end
+
   get '/test_page' do
     haml :test_page, :locals => { :name => 'Sinatra Markup App' }
   end

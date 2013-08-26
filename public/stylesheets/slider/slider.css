@@ -44,7 +44,12 @@
   float: left;
   width: 800px;
   height: 300px;
-  background: #fff;
+}
+.slider ul li:nth-child(even) {
+  background: #b7f0b6;
+}
+.slider ul li:nth-child(odd) {
+  background: #d3f0c6;
 }
 .slider h2 {
   text-indent: 10px;
